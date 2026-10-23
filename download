@@ -1,0 +1,26 @@
+# Roblox place files and local recovery copies
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxm
+*.rbxmx
+*.autosave
+
+# Generated artifacts and dependencies
+build/
+dist/
+node_modules/
+Packages/
+DevPackages/
+*.zip
+*.log
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
